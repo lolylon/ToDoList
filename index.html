@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список Дел</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Список Дел</h1>
+        <div class="todo-input">
+            <input type="text" id="task-input" placeholder="Введите задачу...">
+            <input type="date" id="task-date">
+            <input type="time" id="task-time">
+            <button id="add-task-btn">Добавить</button>
+        </div>
+        <select>
+                <option value="all">Все</option>
+    <option value="completed">Выполненные</option>
+    <option value="incomplete">Невыполненные</option>
+        </select>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
